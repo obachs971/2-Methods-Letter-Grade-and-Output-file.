@@ -26,39 +26,39 @@ public class studentGrades
 	 */
 	public static String letterGrade(double g1, double g2, double g3)
 	{
-		double finalnumGrade;
+		double finalNumGrade;
 		String finalGrade;
-		finalnumGrade = (g1 * 0.2) + (g2 * 0.3) + (g3 * 0.5);
+		finalNumGrade = (g1 * 0.2) + (g2 * 0.3) + (g3 * 0.5);
 		
-		if(finalnumGrade >= 92)
+		if(finalNumGrade >= 92)
 		{
 			finalGrade = "A";
 		}
-		else if(finalnumGrade >= 90)
+		else if(finalNumGrade >= 90)
 		{
 			finalGrade = "A-";
 		}
-		else if(finalnumGrade >= 88)
+		else if(finalNumGrade >= 88)
 		{
 			finalGrade = "B+";
 		}
-		else if(finalnumGrade >= 82)
+		else if(finalNumGrade >= 82)
 		{
 			finalGrade = "B";
 		}
-		else if(finalnumGrade >= 80)
+		else if(finalNumGrade >= 80)
 		{
 			finalGrade = "B-";
 		}
-		else if(finalnumGrade >= 78)
+		else if(finalNumGrade >= 78)
 		{
 			finalGrade = "C+";
 		}
-		else if(finalnumGrade >= 70)
+		else if(finalNumGrade >= 70)
 		{
 			finalGrade = "C";
 		}
-		else if(finalnumGrade >= 60)
+		else if(finalNumGrade >= 60)
 		{
 			finalGrade = "D";
 		}
