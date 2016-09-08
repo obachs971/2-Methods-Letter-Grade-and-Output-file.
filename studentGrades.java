@@ -1,6 +1,7 @@
 import java.io.*;
 public class studentGrades 
 {
+	//Please ignore this part of the program, it was just to see if my methods were working.
 	public static void main(String[] args) throws IOException
 	{
 		double grade1 = 98;
@@ -12,8 +13,10 @@ public class studentGrades
 		String name;
 		name = "Sammy";
 		outputFile(name,letterGrade);
-		
 	}
+	
+	
+	
 	/**
 	 * 
 	 * @param g1 The first grade in double.
