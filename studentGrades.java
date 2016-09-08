@@ -40,7 +40,7 @@ public class studentGrades
 		}
 		else if(finalnumGrade >= 88)
 		{
-			finalGrade = "B-";
+			finalGrade = "B+";
 		}
 		else if(finalnumGrade >= 82)
 		{
